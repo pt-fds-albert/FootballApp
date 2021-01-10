@@ -15,6 +15,13 @@
 		50FA14C525AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14C425AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift */; };
 		50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14DC25AB72A400D29F93 /* SearchViewController.swift */; };
 		50FA14DF25AB72A400D29F93 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14DD25AB72A400D29F93 /* SearchViewController.xib */; };
+		50FA14E825AB761E00D29F93 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14E725AB761E00D29F93 /* Api.swift */; };
+		50FA14F125AB833900D29F93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14F025AB833900D29F93 /* NetworkManager.swift */; };
+		50FA14FA25AB83B500D29F93 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14F925AB83B500D29F93 /* Player.swift */; };
+		50FA150225AB8A1E00D29F93 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA150125AB8A1E00D29F93 /* Team.swift */; };
+		BFB800858E69EB1D9EE903D2 /* Pods_PT_FDS_AlbertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3D82F461BC561FA3B55939 /* Pods_PT_FDS_AlbertTests.framework */; };
+		CFD9E17FC19B5A777FDE149F /* Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB16699C67530079EF72EE7 /* Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework */; };
+		E6648AA5815913978FE758E7 /* Pods_PT_FDS_Albert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B086952DB1AD6B2F93E93B7A /* Pods_PT_FDS_Albert.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D331362DDB219E7EFC80EE /* Pods-PT FDS Albert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS Albert.release.xcconfig"; path = "Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert.release.xcconfig"; sourceTree = "<group>"; };
 		50FA149F25AB6FA200D29F93 /* PT FDS Albert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PT FDS Albert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA14A225AB6FA200D29F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		50FA14C625AB6FA300D29F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50FA14DC25AB72A400D29F93 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		50FA14DD25AB72A400D29F93 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		50FA14E725AB761E00D29F93 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		50FA14F025AB833900D29F93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		50FA14F925AB83B500D29F93 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		50FA150125AB8A1E00D29F93 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6BA306F5FD83E75F686A2BFD /* Pods-PT FDS Albert-PT FDS AlbertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS Albert-PT FDS AlbertUITests.release.xcconfig"; path = "Target Support Files/Pods-PT FDS Albert-PT FDS AlbertUITests/Pods-PT FDS Albert-PT FDS AlbertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F489C7D98C71F735C5867DA /* Pods-PT FDS AlbertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS AlbertTests.debug.xcconfig"; path = "Target Support Files/Pods-PT FDS AlbertTests/Pods-PT FDS AlbertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB16699C67530079EF72EE7 /* Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5932FD1AC2C1636E92EC83 /* Pods-PT FDS AlbertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS AlbertTests.release.xcconfig"; path = "Target Support Files/Pods-PT FDS AlbertTests/Pods-PT FDS AlbertTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E3D82F461BC561FA3B55939 /* Pods_PT_FDS_AlbertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PT_FDS_AlbertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA982FABD70CDC0AFFFAB1A5 /* Pods-PT FDS Albert-PT FDS AlbertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS Albert-PT FDS AlbertUITests.debug.xcconfig"; path = "Target Support Files/Pods-PT FDS Albert-PT FDS AlbertUITests/Pods-PT FDS Albert-PT FDS AlbertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B086952DB1AD6B2F93E93B7A /* Pods_PT_FDS_Albert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PT_FDS_Albert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32FFBF9E858A22545938F50 /* Pods-PT FDS Albert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS Albert.debug.xcconfig"; path = "Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6648AA5815913978FE758E7 /* Pods_PT_FDS_Albert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB800858E69EB1D9EE903D2 /* Pods_PT_FDS_AlbertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD9E17FC19B5A777FDE149F /* Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1784C6143DC4E5CD99A1FC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F32FFBF9E858A22545938F50 /* Pods-PT FDS Albert.debug.xcconfig */,
+				43D331362DDB219E7EFC80EE /* Pods-PT FDS Albert.release.xcconfig */,
+				AA982FABD70CDC0AFFFAB1A5 /* Pods-PT FDS Albert-PT FDS AlbertUITests.debug.xcconfig */,
+				6BA306F5FD83E75F686A2BFD /* Pods-PT FDS Albert-PT FDS AlbertUITests.release.xcconfig */,
+				6F489C7D98C71F735C5867DA /* Pods-PT FDS AlbertTests.debug.xcconfig */,
+				8E5932FD1AC2C1636E92EC83 /* Pods-PT FDS AlbertTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		50FA149625AB6FA200D29F93 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				50FA14B825AB6FA300D29F93 /* PT FDS AlbertTests */,
 				50FA14C325AB6FA300D29F93 /* PT FDS AlbertUITests */,
 				50FA14A025AB6FA200D29F93 /* Products */,
+				1784C6143DC4E5CD99A1FC10 /* Pods */,
+				C029D851BB139DBA1F21225E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +141,9 @@
 				50FA14A225AB6FA200D29F93 /* AppDelegate.swift */,
 				50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */,
 				50FA14B025AB6FA200D29F93 /* Info.plist */,
+				50FA14E625AB760900D29F93 /* Helpers */,
+				50FA14EF25AB832900D29F93 /* Network */,
+				50FA14F825AB838700D29F93 /* Model */,
 				50FA14DB25AB726200D29F93 /* Controllers */,
 				50FA14AB25AB6FA200D29F93 /* Assets.xcassets */,
 				50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */,
@@ -136,6 +178,41 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		50FA14E625AB760900D29F93 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				50FA14E725AB761E00D29F93 /* Api.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50FA14EF25AB832900D29F93 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				50FA14F025AB833900D29F93 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		50FA14F825AB838700D29F93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50FA14F925AB83B500D29F93 /* Player.swift */,
+				50FA150125AB8A1E00D29F93 /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C029D851BB139DBA1F21225E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B086952DB1AD6B2F93E93B7A /* Pods_PT_FDS_Albert.framework */,
+				7FB16699C67530079EF72EE7 /* Pods_PT_FDS_Albert_PT_FDS_AlbertUITests.framework */,
+				9E3D82F461BC561FA3B55939 /* Pods_PT_FDS_AlbertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FA14C925AB6FA300D29F93 /* Build configuration list for PBXNativeTarget "PT FDS Albert" */;
 			buildPhases = (
+				A690BAB4A926ECD8A0424204 /* [CP] Check Pods Manifest.lock */,
 				50FA149B25AB6FA200D29F93 /* Sources */,
 				50FA149C25AB6FA200D29F93 /* Frameworks */,
 				50FA149D25AB6FA200D29F93 /* Resources */,
+				E7979CB9C8773EF4C63BFC5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FA14CC25AB6FA300D29F93 /* Build configuration list for PBXNativeTarget "PT FDS AlbertTests" */;
 			buildPhases = (
+				EA61F9182750FF5BDD9FE903 /* [CP] Check Pods Manifest.lock */,
 				50FA14B125AB6FA300D29F93 /* Sources */,
 				50FA14B225AB6FA300D29F93 /* Frameworks */,
 				50FA14B325AB6FA300D29F93 /* Resources */,
@@ -178,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FA14CF25AB6FA300D29F93 /* Build configuration list for PBXNativeTarget "PT FDS AlbertUITests" */;
 			buildPhases = (
+				92F65C6A4FE8DB509EEB11E3 /* [CP] Check Pods Manifest.lock */,
 				50FA14BC25AB6FA300D29F93 /* Sources */,
 				50FA14BD25AB6FA300D29F93 /* Frameworks */,
 				50FA14BE25AB6FA300D29F93 /* Resources */,
+				BA103474A73A77058E92D72B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +343,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92F65C6A4FE8DB509EEB11E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PT FDS Albert-PT FDS AlbertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A690BAB4A926ECD8A0424204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PT FDS Albert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA103474A73A77058E92D72B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert-PT FDS AlbertUITests/Pods-PT FDS Albert-PT FDS AlbertUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert-PT FDS AlbertUITests/Pods-PT FDS Albert-PT FDS AlbertUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert-PT FDS AlbertUITests/Pods-PT FDS Albert-PT FDS AlbertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7979CB9C8773EF4C63BFC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA61F9182750FF5BDD9FE903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PT FDS AlbertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50FA149B25AB6FA200D29F93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +453,10 @@
 			files = (
 				50FA14A325AB6FA200D29F93 /* AppDelegate.swift in Sources */,
 				50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */,
+				50FA150225AB8A1E00D29F93 /* Team.swift in Sources */,
+				50FA14F125AB833900D29F93 /* NetworkManager.swift in Sources */,
+				50FA14E825AB761E00D29F93 /* Api.swift in Sources */,
+				50FA14FA25AB83B500D29F93 /* Player.swift in Sources */,
 				50FA14A525AB6FA200D29F93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +622,7 @@
 		};
 		50FA14CA25AB6FA300D29F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32FFBF9E858A22545938F50 /* Pods-PT FDS Albert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +641,7 @@
 		};
 		50FA14CB25AB6FA300D29F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D331362DDB219E7EFC80EE /* Pods-PT FDS Albert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +660,7 @@
 		};
 		50FA14CD25AB6FA300D29F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F489C7D98C71F735C5867DA /* Pods-PT FDS AlbertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +682,7 @@
 		};
 		50FA14CE25AB6FA300D29F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5932FD1AC2C1636E92EC83 /* Pods-PT FDS AlbertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +704,7 @@
 		};
 		50FA14D025AB6FA300D29F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA982FABD70CDC0AFFFAB1A5 /* Pods-PT FDS Albert-PT FDS AlbertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +724,7 @@
 		};
 		50FA14D125AB6FA300D29F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA306F5FD83E75F686A2BFD /* Pods-PT FDS Albert-PT FDS AlbertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

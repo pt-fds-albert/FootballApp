@@ -1,0 +1,6 @@
+framework module Pods_PT_FDS_AlbertTests {
+  umbrella header "Pods-PT FDS AlbertTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
