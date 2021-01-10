@@ -1,7 +1,12 @@
-/* 
-  Main.strings
-  PT FDS Albert
+// Search View
+"search.placeholder" = "Player name";
+"search" = "Search";
+"input.empty" = "Please introduce a name on the search bar.";
+"no.results" = "No results found.";
 
-  Created by Albert on 10/1/21.
-  
-*/
+
+// Detail View
+
+
+// Other
+"error" = "Something went wrong. Please try again.";

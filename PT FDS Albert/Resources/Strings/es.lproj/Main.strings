@@ -1,7 +1,12 @@
-/* 
-  Main.strings
-  PT FDS Albert
+// Search View
+"search.placeholder" = "Nombre";
+"search" = "Buscar";
+"input.empty" = "Por favor introduce un nombre.";
+"no.results" = "No se encontraron resultados.";
 
-  Created by Albert on 10/1/21.
-  
-*/
+
+// Detail View
+
+
+// Other
+"error" = "Ha ocurrido un error. Por favor inténtalo de nuevo.";
