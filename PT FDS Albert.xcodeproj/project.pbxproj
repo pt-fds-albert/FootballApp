@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		50FA14A325AB6FA200D29F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14A225AB6FA200D29F93 /* AppDelegate.swift */; };
 		50FA14A525AB6FA200D29F93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */; };
-		50FA14A725AB6FA200D29F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14A625AB6FA200D29F93 /* ViewController.swift */; };
-		50FA14AA25AB6FA200D29F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14A825AB6FA200D29F93 /* Main.storyboard */; };
 		50FA14AC25AB6FA200D29F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14AB25AB6FA200D29F93 /* Assets.xcassets */; };
 		50FA14AF25AB6FA200D29F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */; };
 		50FA14BA25AB6FA300D29F93 /* PT_FDS_AlbertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14B925AB6FA300D29F93 /* PT_FDS_AlbertTests.swift */; };
 		50FA14C525AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14C425AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift */; };
+		50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14DC25AB72A400D29F93 /* SearchViewController.swift */; };
+		50FA14DF25AB72A400D29F93 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14DD25AB72A400D29F93 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		50FA149F25AB6FA200D29F93 /* PT FDS Albert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PT FDS Albert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA14A225AB6FA200D29F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50FA14A625AB6FA200D29F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50FA14A925AB6FA200D29F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50FA14AB25AB6FA200D29F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FA14AE25AB6FA200D29F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50FA14B025AB6FA200D29F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		50FA14C025AB6FA300D29F93 /* PT FDS AlbertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PT FDS AlbertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA14C425AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_FDS_AlbertUITests.swift; sourceTree = "<group>"; };
 		50FA14C625AB6FA300D29F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FA14DC25AB72A400D29F93 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		50FA14DD25AB72A400D29F93 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,10 @@
 			children = (
 				50FA14A225AB6FA200D29F93 /* AppDelegate.swift */,
 				50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */,
-				50FA14A625AB6FA200D29F93 /* ViewController.swift */,
-				50FA14A825AB6FA200D29F93 /* Main.storyboard */,
+				50FA14B025AB6FA200D29F93 /* Info.plist */,
+				50FA14DB25AB726200D29F93 /* Controllers */,
 				50FA14AB25AB6FA200D29F93 /* Assets.xcassets */,
 				50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */,
-				50FA14B025AB6FA200D29F93 /* Info.plist */,
 			);
 			path = "PT FDS Albert";
 			sourceTree = "<group>";
@@ -126,6 +125,15 @@
 				50FA14C625AB6FA300D29F93 /* Info.plist */,
 			);
 			path = "PT FDS AlbertUITests";
+			sourceTree = "<group>";
+		};
+		50FA14DB25AB726200D29F93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FA14DC25AB72A400D29F93 /* SearchViewController.swift */,
+				50FA14DD25AB72A400D29F93 /* SearchViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +241,7 @@
 			files = (
 				50FA14AF25AB6FA200D29F93 /* LaunchScreen.storyboard in Resources */,
 				50FA14AC25AB6FA200D29F93 /* Assets.xcassets in Resources */,
-				50FA14AA25AB6FA200D29F93 /* Main.storyboard in Resources */,
+				50FA14DF25AB72A400D29F93 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FA14A725AB6FA200D29F93 /* ViewController.swift in Sources */,
 				50FA14A325AB6FA200D29F93 /* AppDelegate.swift in Sources */,
+				50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */,
 				50FA14A525AB6FA200D29F93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50FA14A825AB6FA200D29F93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FA14A925AB6FA200D29F93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.fds.PT-FDS-Albert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.fds.PT-FDS-Albert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
