@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension String {
+    func fromFile(_ tableName: String) -> String {
+        return NSLocalizedString(self, tableName: tableName, comment: "")
+    }
+}

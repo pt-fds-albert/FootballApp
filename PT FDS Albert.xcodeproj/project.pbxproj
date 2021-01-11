@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5092ADFC25ABAE25003C9DDE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092ADFA25ABAE25003C9DDE /* SearchViewController.swift */; };
+		5092ADFD25ABAE25003C9DDE /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5092ADFB25ABAE25003C9DDE /* SearchViewController.xib */; };
+		5092AE0E25ABAF55003C9DDE /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5092AE1025ABAF55003C9DDE /* Main.strings */; };
+		5092AE1A25ABAFFD003C9DDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092AE1925ABAFFD003C9DDE /* Extensions.swift */; };
+		5092AE2925ABB737003C9DDE /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092AE2725ABB737003C9DDE /* PlayerCell.swift */; };
+		5092AE2A25ABB737003C9DDE /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5092AE2825ABB737003C9DDE /* PlayerCell.xib */; };
+		5092AE3225ABB8AE003C9DDE /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092AE3125ABB8AE003C9DDE /* Aliases.swift */; };
+		5092AE3725ABBD56003C9DDE /* ballAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5092AE3625ABBD56003C9DDE /* ballAnimation.json */; };
+		5092AE4F25ABC785003C9DDE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092AE4D25ABC785003C9DDE /* DetailViewController.swift */; };
+		5092AE5025ABC785003C9DDE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5092AE4E25ABC785003C9DDE /* DetailViewController.xib */; };
+		5092AE5F25ABD507003C9DDE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092AE5E25ABD507003C9DDE /* Utils.swift */; };
 		50FA14A325AB6FA200D29F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14A225AB6FA200D29F93 /* AppDelegate.swift */; };
 		50FA14A525AB6FA200D29F93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */; };
 		50FA14AC25AB6FA200D29F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14AB25AB6FA200D29F93 /* Assets.xcassets */; };
 		50FA14AF25AB6FA200D29F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */; };
 		50FA14BA25AB6FA300D29F93 /* PT_FDS_AlbertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14B925AB6FA300D29F93 /* PT_FDS_AlbertTests.swift */; };
 		50FA14C525AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14C425AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift */; };
-		50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14DC25AB72A400D29F93 /* SearchViewController.swift */; };
-		50FA14DF25AB72A400D29F93 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FA14DD25AB72A400D29F93 /* SearchViewController.xib */; };
 		50FA14E825AB761E00D29F93 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14E725AB761E00D29F93 /* Api.swift */; };
 		50FA14F125AB833900D29F93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14F025AB833900D29F93 /* NetworkManager.swift */; };
 		50FA14FA25AB83B500D29F93 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA14F925AB83B500D29F93 /* Player.swift */; };
@@ -43,6 +52,19 @@
 
 /* Begin PBXFileReference section */
 		43D331362DDB219E7EFC80EE /* Pods-PT FDS Albert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PT FDS Albert.release.xcconfig"; path = "Target Support Files/Pods-PT FDS Albert/Pods-PT FDS Albert.release.xcconfig"; sourceTree = "<group>"; };
+		5092ADFA25ABAE25003C9DDE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5092ADFB25ABAE25003C9DDE /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		5092AE0F25ABAF55003C9DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5092AE1425ABAF79003C9DDE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5092AE1525ABAF79003C9DDE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		5092AE1925ABAFFD003C9DDE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5092AE2725ABB737003C9DDE /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		5092AE2825ABB737003C9DDE /* PlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
+		5092AE3125ABB8AE003C9DDE /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		5092AE3625ABBD56003C9DDE /* ballAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ballAnimation.json; sourceTree = "<group>"; };
+		5092AE4D25ABC785003C9DDE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5092AE4E25ABC785003C9DDE /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		5092AE5E25ABD507003C9DDE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		50FA149F25AB6FA200D29F93 /* PT FDS Albert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PT FDS Albert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA14A225AB6FA200D29F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +77,6 @@
 		50FA14C025AB6FA300D29F93 /* PT FDS AlbertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PT FDS AlbertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA14C425AB6FA300D29F93 /* PT_FDS_AlbertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_FDS_AlbertUITests.swift; sourceTree = "<group>"; };
 		50FA14C625AB6FA300D29F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50FA14DC25AB72A400D29F93 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		50FA14DD25AB72A400D29F93 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		50FA14E725AB761E00D29F93 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		50FA14F025AB833900D29F93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		50FA14F925AB83B500D29F93 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -109,8 +129,34 @@
 				6F489C7D98C71F735C5867DA /* Pods-PT FDS AlbertTests.debug.xcconfig */,
 				8E5932FD1AC2C1636E92EC83 /* Pods-PT FDS AlbertTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5092AE0125ABAF10003C9DDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50FA14AB25AB6FA200D29F93 /* Assets.xcassets */,
+				5092AE3625ABBD56003C9DDE /* ballAnimation.json */,
+				5092AE0525ABAF2E003C9DDE /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5092AE0525ABAF2E003C9DDE /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				5092AE1025ABAF55003C9DDE /* Main.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		5092AE2625ABB715003C9DDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5092AE2725ABB737003C9DDE /* PlayerCell.swift */,
+				5092AE2825ABB737003C9DDE /* PlayerCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		50FA149625AB6FA200D29F93 = {
@@ -141,11 +187,11 @@
 				50FA14A225AB6FA200D29F93 /* AppDelegate.swift */,
 				50FA14A425AB6FA200D29F93 /* SceneDelegate.swift */,
 				50FA14B025AB6FA200D29F93 /* Info.plist */,
+				5092AE0125ABAF10003C9DDE /* Resources */,
 				50FA14E625AB760900D29F93 /* Helpers */,
 				50FA14EF25AB832900D29F93 /* Network */,
 				50FA14F825AB838700D29F93 /* Model */,
 				50FA14DB25AB726200D29F93 /* Controllers */,
-				50FA14AB25AB6FA200D29F93 /* Assets.xcassets */,
 				50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */,
 			);
 			path = "PT FDS Albert";
@@ -172,8 +218,11 @@
 		50FA14DB25AB726200D29F93 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				50FA14DC25AB72A400D29F93 /* SearchViewController.swift */,
-				50FA14DD25AB72A400D29F93 /* SearchViewController.xib */,
+				5092AE2625ABB715003C9DDE /* Cells */,
+				5092ADFA25ABAE25003C9DDE /* SearchViewController.swift */,
+				5092ADFB25ABAE25003C9DDE /* SearchViewController.xib */,
+				5092AE4D25ABC785003C9DDE /* DetailViewController.swift */,
+				5092AE4E25ABC785003C9DDE /* DetailViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +231,9 @@
 			isa = PBXGroup;
 			children = (
 				50FA14E725AB761E00D29F93 /* Api.swift */,
+				5092AE5E25ABD507003C9DDE /* Utils.swift */,
+				5092AE1925ABAFFD003C9DDE /* Extensions.swift */,
+				5092AE3125ABB8AE003C9DDE /* Aliases.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -303,6 +355,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 50FA149625AB6FA200D29F93;
 			productRefGroup = 50FA14A025AB6FA200D29F93 /* Products */;
@@ -322,8 +375,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FA14AF25AB6FA200D29F93 /* LaunchScreen.storyboard in Resources */,
+				5092AE0E25ABAF55003C9DDE /* Main.strings in Resources */,
+				5092AE5025ABC785003C9DDE /* DetailViewController.xib in Resources */,
 				50FA14AC25AB6FA200D29F93 /* Assets.xcassets in Resources */,
-				50FA14DF25AB72A400D29F93 /* SearchViewController.xib in Resources */,
+				5092AE3725ABBD56003C9DDE /* ballAnimation.json in Resources */,
+				5092AE2A25ABB737003C9DDE /* PlayerCell.xib in Resources */,
+				5092ADFD25ABAE25003C9DDE /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,13 +508,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5092AE4F25ABC785003C9DDE /* DetailViewController.swift in Sources */,
+				5092AE3225ABB8AE003C9DDE /* Aliases.swift in Sources */,
 				50FA14A325AB6FA200D29F93 /* AppDelegate.swift in Sources */,
-				50FA14DE25AB72A400D29F93 /* SearchViewController.swift in Sources */,
+				5092ADFC25ABAE25003C9DDE /* SearchViewController.swift in Sources */,
 				50FA150225AB8A1E00D29F93 /* Team.swift in Sources */,
+				5092AE2925ABB737003C9DDE /* PlayerCell.swift in Sources */,
+				5092AE1A25ABAFFD003C9DDE /* Extensions.swift in Sources */,
 				50FA14F125AB833900D29F93 /* NetworkManager.swift in Sources */,
 				50FA14E825AB761E00D29F93 /* Api.swift in Sources */,
 				50FA14FA25AB83B500D29F93 /* Player.swift in Sources */,
 				50FA14A525AB6FA200D29F93 /* SceneDelegate.swift in Sources */,
+				5092AE5F25ABD507003C9DDE /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,10 +555,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5092AE1025ABAF55003C9DDE /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5092AE0F25ABAF55003C9DDE /* en */,
+				5092AE1525ABAF79003C9DDE /* es */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
 		50FA14AD25AB6FA200D29F93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				50FA14AE25AB6FA200D29F93 /* Base */,
+				5092AE1425ABAF79003C9DDE /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -508,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -569,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

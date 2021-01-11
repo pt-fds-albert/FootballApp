@@ -9,15 +9,22 @@ import UIKit
 
 class PlayerCell: UITableViewCell {
 
+    @IBOutlet weak var playerImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        playerImageView.layer.cornerRadius = playerImageView.frame.height/2
+            playerImageView.contentMode = .scaleAspectFit
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    
+    override func prepareForReuse() {
+        playerImageView.image = nil
+        nameLabel.text = ""
+        ageLabel.text = ""
     }
     
 }

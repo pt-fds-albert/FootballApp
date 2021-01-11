@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+typealias PlayerTuple = (id: Int, name: String, imageUrl: String, birthdate: String)

@@ -3,10 +3,12 @@
 "search" = "Search";
 "input.empty" = "Please introduce a name on the search bar.";
 "no.results" = "No results found.";
-
+"years.old" = "%d years old";
 
 // Detail View
-
+"birthdate.not.found" = "Unknown date of birth";
+"height.not.found" = "Unknown height";
+"weight.not.found" = "Unknown weight";
 
 // Other
 "error" = "Something went wrong. Please try again.";

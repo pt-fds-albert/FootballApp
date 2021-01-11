@@ -1,16 +1,28 @@
 PODS:
+  - Loaf (0.7.0)
+  - lottie-ios (3.1.9)
+  - Nuke (9.2.3)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - Loaf
+  - lottie-ios
+  - Nuke
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Loaf
+    - lottie-ios
+    - Nuke
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Nuke: 3dd19fd03612c179036d2af7f56ec57cb84144e2
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 8be1c256ffc74f7732e4acef720d4750b26a11e1
+PODFILE CHECKSUM: 74cbc097ab782ea9c70efb3450221156e535b888
 
 COCOAPODS: 1.9.3

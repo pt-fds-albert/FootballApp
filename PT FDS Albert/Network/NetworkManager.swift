@@ -66,7 +66,7 @@ class NetworkManager {
         }.resume()
     }
     
-    func getPlayersByName(name: String, completionHandler: @escaping ([(playerID: Int, playerName: String)]?, Error?) -> Void) {
+    func getPlayersByName(name: String, completionHandler: @escaping ([PlayerTuple]?, Error?) -> Void) {
         
         let urlSession = URLSession(configuration: .default)
         
@@ -80,11 +80,11 @@ class NetworkManager {
             guard let data = data, let response = response as? HTTPURLResponse, error == nil, response.statusCode == 200 else { return }
             
             do {
-                var players: [(Int, String)] = []
+                var players: [PlayerTuple] = []
                 let playersJSON = try JSON(data: data)["data"].arrayValue
                 
                 for player in playersJSON {
-                    players.append((player["player_id"].intValue, player["common_name"].stringValue))
+                    players.append((player["player_id"].intValue, player["display_name"].stringValue, player["image_path"].stringValue, player["birthdate"].stringValue))
                 }
                 
                 completionHandler(players, nil)

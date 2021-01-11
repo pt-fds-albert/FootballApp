@@ -3,10 +3,12 @@
 "search" = "Buscar";
 "input.empty" = "Por favor introduce un nombre.";
 "no.results" = "No se encontraron resultados.";
-
+"years.old" = "%d años";
 
 // Detail View
-
+"birthdate.not.found" = "Fecha de nacimiento desconocida";
+"height.not.found" = "Altura desconocida";
+"weight.not.found" = "Peso desconocido";
 
 // Other
 "error" = "Ha ocurrido un error. Por favor inténtalo de nuevo.";

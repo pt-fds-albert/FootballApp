@@ -6,6 +6,9 @@ target 'PT FDS Albert' do
   use_frameworks!
 
   pod 'SwiftyJSON'
+  pod 'Loaf'
+  pod 'lottie-ios'
+  pod 'Nuke'
 
   target 'PT FDS AlbertTests' do
     inherit! :search_paths
