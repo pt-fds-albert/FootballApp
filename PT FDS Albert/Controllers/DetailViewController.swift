@@ -79,7 +79,12 @@ class DetailViewController: UIViewController {
         if let playerID = playerID {
             netorkManager.getPlayerByID(id: playerID) { (player, error) in
                 guard let player = player, error == nil else { return }
+                let views: [UIView] = [self.playerImageView, self.playerNameLabel, self.nationalityLabel, self.birthDateLabel, self.ageLabel, self.heightLabel, self.weightLabel, self.teamImageView,self.teamNameLabel].shuffled()
+
                 DispatchQueue.main.async {
+                    for v in views {
+                        v.alpha = 0
+                    }
                     self.title = player.shortName
                     if let url = URL(string: player.imageUrl) {
                         Nuke.loadImage(with: url, into: self.playerImageView)
@@ -107,6 +112,13 @@ class DetailViewController: UIViewController {
                             Nuke.loadImage(with: url, into: self.teamImageView)
                         }
                         self.teamNameLabel.text = team.name
+                    }
+                    for i in 0..<views.count {
+                        UIView.animateKeyframes(withDuration: 0.6, delay: Double(i)*0.11) {
+                            views[i].alpha = 1
+                            
+                            self.view.layoutIfNeeded()
+                        }
                     }
                 }
             }

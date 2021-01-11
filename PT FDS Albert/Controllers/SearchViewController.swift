@@ -142,7 +142,13 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         let player = players[indexPath.row]
         
         cell.nameLabel.text = player.name
-        cell.ageLabel.text = String(format: "years.old".fromFile("Main"), Utils.currentAge(birthDate: player.birthdate, dateFormat: "dd/MM/yyyy"))
+        
+        if let birthDate = player.birthdate, !birthDate.isEmpty {
+            cell.ageLabel.text = String(format: "years.old".fromFile("Main"), Utils.currentAge(birthDate: birthDate, dateFormat: "dd/MM/yyyy"))
+        } else {
+            cell.ageLabel.text = "birthdate.not.found".fromFile("Main")
+        }
+        
         if let url = URL(string: player.imageUrl) {
             Nuke.loadImage(with: url, into: cell.playerImageView)
         }
